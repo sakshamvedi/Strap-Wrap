@@ -1,0 +1,198 @@
+.body
+{
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+}
+
+.container
+{
+    font-size: 15px;
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+    
+}
+
+
+
+.navmain
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  position: relative;
+  top: 0px;
+  display: none;
+
+    
+}
+.hey
+{
+    height: 40px;
+    width: 40px;
+    transition: transform .7s;
+}
+
+@media screen and (max-height: 450px) {
+    .navmain {padding-top: 15px;}
+    .navmain a {font-size: 18px;}
+  }
+
+.head
+{
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+    color: #6486f4;
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.openbtn
+{
+    background-color: white;
+    transition: transform .7s ease-in-out;
+    border: none;
+
+}
+
+
+
+
+.hey:hover{
+   
+    transform: rotate(360deg);
+}
+
+.frames{
+    width: 25rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;
+}
+
+.block-bar{
+   
+     height: 100%;
+      width: 0%;
+     background-color: white;
+     color: #6486f4;
+     position: fixed;
+     overflow-x: hidden;
+     z-index: 1;
+     overflow-y: scroll;
+     top: 65px;
+     left: 0px;
+     transition: 0.5s;
+     bottom: 0;
+     font-family: 'Noto Sans Ethiopic', sans-serif;
+}
+
+
+.blocks{
+  list-style-type: none;
+ right:15px;
+ padding: 1em;
+
+}
+.lists
+{
+    padding: 1em;
+    color: black;
+    font-weight: 800;
+    border-bottom: solid 1px #6486f4;
+
+}
+.lists:hover{
+    background-color: #6486f4;
+    color:black;
+
+    cursor: pointer;
+}
+
+
+.main{
+   
+    margin-left: 5rem;
+
+}
+.assetsimages
+{
+    height: 25%;
+    width: 75%;
+}
+
+.value{
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+    display: none;
+ }
+
+
+
+@media (max-width :500px)
+{
+    .navmain{
+        display: block;
+    }
+    .frames
+    {
+      
+        height: 20rem;
+        width: 10rem;
+    }
+
+    .block-bar{
+        position: fixed;
+        width: 150px;
+        overflow-y: scroll;
+        top: 65px;
+        bottom: 0;
+    }
+    .value{
+       font-family: 'Noto Sans Ethiopic', sans-serif;
+    }
+}
+
+
+@media (max-width :400px)
+{
+    .navmain{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0rem;
+    }
+    .frames
+    {
+       
+        height: 5rem;
+        width: 5rem;
+    }
+
+    
+}
+
+
+
+
+@media (max-width :2000px)
+{
+    .navmain{
+        display: flex;
+    }
+
+    .frames{
+        height: 50rem;
+        width: 50rem;
+    }
+}
+.nav {
+    padding: 1rem;
+    padding-right: 3rem;
+}
+
+.nav:hover
+{
+    color:#87A2FB;
+    background-color: black;
+   font-weight: 800;
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+ 
+}
